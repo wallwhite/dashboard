@@ -1,0 +1,23 @@
+.cr-header {
+  margin-bottom: $spacer * .5;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  background-color: #232331 !important;
+  &__nav-right {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+  // &__notification-popover {
+  //   &.popover {
+  //     width: 320px;
+  //     max-width: 320px;
+  //     max-height: 100vh;
+  //     overflow-y: scroll;
+  //     cursor: pointer;
+  //   }
+  // }
+}
